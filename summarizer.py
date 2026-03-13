@@ -33,7 +33,7 @@ MODELS = {
     "openai": os.getenv("OPENAI_MODEL", "gpt-4o-mini"),
     "anthropic": os.getenv("ANTHROPIC_MODEL", "claude-sonnet-4-20250514"),
     "lmstudio": os.getenv("LMSTUDIO_MODEL", "local-model"),
-    "openrouter": os.getenv("OPENROUTER_MODEL", "google/gemini-2.5-flash-exp:free"),
+    "openrouter": os.getenv("OPENROUTER_MODEL", "google/gemini-2.5-flash"),
 }
 
 LOGO_URL = "https://aiblackbox.co.uk/wp-content/uploads/2025/08/AIBLACKBOX-logonowe_.png"
